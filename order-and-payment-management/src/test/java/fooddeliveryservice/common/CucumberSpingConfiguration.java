@@ -1,0 +1,9 @@
+package fooddeliveryservice.common;
+
+import fooddeliveryservice.OrderAndPaymentManagementApplication;
+import io.cucumber.spring.CucumberContextConfiguration;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@CucumberContextConfiguration
+@SpringBootTest(classes = { OrderAndPaymentManagementApplication.class })
+public class CucumberSpingConfiguration {}
